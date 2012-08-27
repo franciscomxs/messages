@@ -38,9 +38,16 @@ And it will return:
       <li>Error description</li>
     </ul>
 
-In your layout file, use:
+For using flash messages, in your layout file, do:
 
     <%= flash_messages %>
+
+And in your controller, use:
+
+    flash[:success] = "Your success message"
+    flash[:notice] = "Your alert message"
+    flash[:error] = "Your error message"
+    flash[:info] = "Your info message"
 
 ## Contributing
 

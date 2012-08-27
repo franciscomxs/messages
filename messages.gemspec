@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["franciscomxs@gmail.com"]
   gem.description   = %q{Simple 'error_messages' and 'flash_messages' manager}
   gem.summary       = %q{Helpers for error_messages and flash_messages}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/franciscomxs/messages"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }

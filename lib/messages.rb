@@ -14,7 +14,7 @@ module Messages
 
   def flash_messages
     flash.collect do |key, value|
-      content_tag(:p, value, :class => "alert")
+      content_tag(:p, value, :class => "alert alert-#{key}")
     end.join.html_safe
   end
 
