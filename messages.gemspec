@@ -2,10 +2,10 @@
 require File.expand_path('../lib/messages/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Francisco"]
-  gem.email         = ["francisco@xikin.net"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Francisco Martins"]
+  gem.email         = ["franciscomxs@gmail.com"]
+  gem.description   = %q{Simple 'error_messages' and 'flash_messages' manager}
+  gem.summary       = %q{Helpers for error_messages and flash_messages}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)

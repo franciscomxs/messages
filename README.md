@@ -1,6 +1,6 @@
 # Messages
 
-TODO: Write a gem description
+Simple 'error_messages' and 'flash_messages' manager
 
 ## Installation
 
@@ -18,7 +18,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In any form, instead of that ugly block of code, simple use:
+
+  error_messages_for @resource
+
+In your layout file, use:
+
+  flash_messages
 
 ## Contributing
 
