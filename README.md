@@ -6,7 +6,7 @@ Simple 'error_messages' and 'flash_messages' manager
 
 Add this line to your application's Gemfile:
 
-    gem 'messages'
+    gem "messages", "~> 0.0.2" 
 
 And then execute:
 
