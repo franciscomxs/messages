@@ -18,13 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-In any form, instead of that ugly block of code, simple use:
+In any form, instead of that ugly default block of code, simple use:
 
-  error_messages_for @resource
+    <%= error_messages_for @resource %>
+
+optionaly, you can pass a css class for ul element:
+
+    <%= error_messages_for @resource, 'my_css_class' %>
 
 In your layout file, use:
 
-  flash_messages
+    <%= flash_messages %>
 
 ## Contributing
 
