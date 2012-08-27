@@ -22,9 +22,21 @@ In any form, instead of that ugly default block of code, simple use:
 
     <%= error_messages_for @resource %>
 
-optionaly, you can pass a css class for ul element:
+And it will return:
+
+    <ul class="alert alert-error">
+      <li>Error description</li>
+    </ul>
+
+Optionaly, you can pass a css class for ul element:
 
     <%= error_messages_for @resource, 'my_css_class' %>
+
+And it will return:
+
+    <ul class="my_css_class">
+      <li>Error description</li>
+    </ul>
 
 In your layout file, use:
 
