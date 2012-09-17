@@ -1,3 +1,7 @@
+# This project will be discontinued. See helper_methods gem.
+
+https://github.com/franciscomxs/helper_methods
+
 # Messages
 
 Simple 'error_messages' and 'flash_messages' manager
